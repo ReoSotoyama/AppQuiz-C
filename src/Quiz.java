@@ -40,6 +40,22 @@ public class Quiz {
 	public static int situmon4(){
 		Scanner sc = new Scanner(System.in);
 		int ans = 0;
+		String[] s = {"鉄琴","木琴"};
+		int  t;
+		System.out.println("週２日しか使えない楽器ってどんな楽器？");
+		for(int i = 0 ; i < s.length ; i++){
+			  System.out.println((i + 1) + ":" + s[i]);
+			}
+		System.out.print("番号を入力して下さい -> ");
+		t = sc.nextInt();
+		if(t == 1){
+			  System.out.println("正解です。");
+			  ans = 1;
+			}
+			else {
+			  System.out.println("不正解です。");
+			  ans = 2;
+			}
 		return ans;
 
 	}
