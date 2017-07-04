@@ -56,6 +56,7 @@ public class Quiz {
 			  System.out.println("不正解です。");
 			  ans = 2;
 			}
+
 		return ans;
 
 	}
